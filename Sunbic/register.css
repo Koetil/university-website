@@ -1,0 +1,99 @@
+html{
+    background: linear-gradient(#1c375b,#5d7593);
+}
+
+
+body{
+    text-decoration: none;
+    color: #1c375b;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color:#f5f5f5 ;
+}
+
+img{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.container{
+    
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    position: -webkit-sticky;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-left: 30%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.container .title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.user-details .inputBox input{
+    display: flex;
+    flex-direction: row;
+    border-color: #1c375b;
+    border-radius: 5px;
+    border-style: solid;
+    width: 200px;
+    height: 30px;
+}
+
+.user-details .inputBox input:hover{
+    border-color: #cd4236;
+}
+
+.container .user-details .inputBox{
+    margin-bottom: 15px;
+}
+
+.container .user-details .checkBox{
+    margin-bottom: 15px;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.container form .realname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    margin-top: 15px;
+    width: 20%;
+    font-weight: 500;
+    background-color: #cd4236;
+    border-style: none;
+    height: 30px;
+    color: white;
+    font-family: "Poppins";
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+#error{
+    font-family: 'Poppins';
+    color: red;
+    font-size: 16px;
+}

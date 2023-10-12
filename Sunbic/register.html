@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap&family=Crimson+Text&display=swap"rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class = "navbar">
+            <div class = "logo">
+                <a href='index.html'>
+                    <img src="logosunbic.png" alt="">
+                </a></div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="title">
+                    Registration
+                </div>
+
+            <form action="" method="post" id="register-form">
+               <div class="user-details">
+                   <div class="">
+                    <div class="inputBox">
+                        <label for="firstname" >First Name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="First name">
+                        </div>
+                    
+                        <div class="inputBox" >
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Last name">
+                        </div>
+                   </div>
+            
+                    <div class="inputBox">
+                     <label for="dob">Date of birth</label>
+                     <input type="date" id="dob" name="dob">
+                    </div>
+    
+                    <div class="checkBox">
+                        <label for="">Gender</label>
+                        <br>
+                        <input type="radio"name="gender" id="gender-male">Male
+                        <br>
+                        <input type="radio"name="gender" id="gender-female"
+                        >Female
+                        <br>    
+                        <input type="radio"name="gender" id="gender-none"
+                        >Prefer not to say              
+                    </div>
+            
+                    
+            
+                    <div class="inputBox" >
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="4-20 characters">
+                    </div>
+            
+                    <div class="inputBox" >
+                    <label for="email">E-mail</label>
+                     <input type="email" id="email" name="email" placeholder="example@xxx.com">
+                    </div>
+    
+                    <div class="inputBox">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="6-20 characters include numeric">
+                    </div>
+    
+                    <div class="inputBox">
+                        <label for="confirmpassword">Confirm password</label>
+                        <input type="password" id="confirmpassword" name="confirmpassword">
+                        </div>
+    
+            
+                    <div class="checkBox">
+                        <input type="checkbox" name="tos" id="tos">Agree to the terms of service
+                    </div>
+    
+                    <div class="inputBox">
+                        <button type="submit">Register</button>  
+                        <p id="error"></p>
+                    </div>
+                    
+               </div>
+               
+                
+        
+            </form>
+        
+    
+    </div>    
+</body>
+<script src="./register.js"></script>
+</html>
